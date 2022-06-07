@@ -1,0 +1,64 @@
+/* 
+Orange : #E78200 */
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.nav-link {
+    color: black;
+    margin: 0 1em;
+}
+
+.navbar .nav-link:hover {
+    color: #E78200;
+}
+
+#cart-page{
+    position: fixed;
+    display: none;
+    list-style-type: none;
+    right: 6rem;
+    bottom: 12rem;
+    width: 28rem;
+    height: 28rem;
+    z-index: 999;
+}
+
+#cart-page ul {
+    list-style-type: none;
+}
+#cart-page.active {
+    display: block;
+}
+
+#cart-page {
+    overflow: auto;
+}
+
+/* position: fixed;
+    bottom: -40rem;
+    right: 6.7rem;
+    width: 22rem;
+    min-height: 30rem;
+    display: block;
+    background-color: rgba(245, 240, 233, 0.8);
+    border-radius: 10px;
+    transition: .6s;
+     */
+#footer {
+    color: rgb(79, 79, 79);
+}
+#footer i {
+    color: rgb(79, 79, 79);
+}
+
+.card-photo {
+    margin: auto;
+    width: 120px;
+}
+
+section .btn {
+    color: white;
+    background-color: #E78200;
+}

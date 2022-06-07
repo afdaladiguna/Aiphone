@@ -1,0 +1,124 @@
+/* 
+Orange : #E78200 */
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.nav-link {
+    color: black;
+    margin: 0 1em;
+}
+
+.nav-link:hover {
+    color: #E78200;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='darkslategrey' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+.custom-toggler.navbar-toggler {
+    border-color: darkslategrey;
+} 
+
+#cart-page{
+    position: fixed;
+    display: none;
+    list-style-type: none;
+    right: 6rem;
+    bottom: 12rem;
+    width: 25rem;
+    height: 28rem;
+    z-index: 999;
+}
+
+#cart-page ul {
+    list-style-type: none;
+}
+#cart-page.active {
+    display: block;
+}
+
+#cart-page {
+    overflow: auto;
+}
+
+#main-section {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    background-image: url(img/image13.jpg);
+}
+
+@media (max-width: 576px) {
+    #main-section {
+        background-size: 230%;
+    }
+}
+
+#hero-section .row {
+height: 650px;
+}
+
+#hero-section h1 {
+    font-size: 3.5em;
+    font-weight: 700;
+}
+
+#hero-section p {
+    font-size: 18px;
+    font-weight: 400;
+}
+#hero-section .btn {
+    color: white;
+    background-color: #E78200;
+}
+
+#hero-section .col-lg-6 {
+    background-color: rgb(255, 255, 255, 0.7);
+}
+
+#footer-section {
+    background-color: rgb(255, 255, 255, 0.8);
+    padding-bottom: 2em;
+    margin-bottom: 50px;
+}
+#footer-section h2 {
+    margin-bottom: -10px;
+    margin-top: 100px;
+    font-weight: 700;
+}
+
+#offers h2 {
+    font-weight: 700;
+}
+
+.card-photo {
+    margin: auto;
+    width: 120px;
+}
+
+#offers .btn {
+    color: white;
+    background-color: #E78200;
+}
+
+#laptops {
+    margin-top: 3em;
+    padding-bottom: 2em;
+    background-color: white;
+    height: 100%;
+}
+
+#contact {
+    margin-top: 3em;
+}
+
+#footer {
+    color: rgb(79, 79, 79);
+}
+#footer i {
+    color: rgb(79, 79, 79);
+}

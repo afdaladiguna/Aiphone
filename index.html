@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <header id="main-section" class="container-fluid overflow-auto m-0 p-0">
+    <nav class="navbar navbar-expand-lg fixed-top bg-light px-5">
+      <a class="navbar-brand" href="#"><img src="img/brand-logo.png" alt=""></a>
+      <button class="custom-toggler navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon navbar-light"></span>
+      </button>
+      <div class="container-fluid p-0">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto me-5">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#offers">Offers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="product/product.html">Product</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Brand</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Support</a>
+            </li>
+          </ul>
+          <div class="d-flex ms-auto">
+            <a id="cart-button" href="#" class="btn p-1 me-2">
+              <i class="bi bi-cart-fill" style="font-size: 1.5em"></i>
+            </a>
+            <a href="#" class="btn p-1">
+              <i class="bi bi-person-fill" style="font-size: 1.6em"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div id="cart-page" class="bg-light text-dark shadow-lg border">
+      <h4 class="text-center mt-3 mb-4">Cart</h4>
+      <div class="container m-0 p-0">
+        <div id="item-cart">
+          <p id="cart-empty" class="text-center mt-5 mb-2">Your cart is still empty.</p>
+          <p class="text-center m-0">Browse now at our <a href="product/product.html">Product</a>.</p>
+        </div>
+        <div class="ms-auto d-flex justify-content-end" style="width: 100%;">
+          <button class="btn btn-warning me-3 mt-auto d-inline" style="display: none !important;">Check Out</button>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="hero-section">
+      <div class="container-fluid">
+        <div class="row align-items-center px-5">
+          <div class="col-lg-6">
+          </div>
+          <div class="col-lg-6 col-md-12 p-3 shadow-lg">
+            <h1>We have the best gadget for you.</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate deserunt sit omnis perspiciatis.
+            </p>
+            <a href="#" class="btn mt-4">Buy Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="footer-section">
+      <h2 class="text-center pt-4 pb-5">Why choose us?</h2>
+      <div class="container w-75 mt-0">
+        <div class="card-group text-center shadow-lg">
+          <div class="card">
+            <span class="mt-4"><i class="bi bi-check2-square border rounded-circle border-dark p-2"
+                style="font-size: 2em;"></i></span>
+            <div class="card-body">
+              <h5 class="card-title">Official Distributor</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                additional
+                content. This content is a little bit longer.</p>
+            </div>
+          </div>
+          <div class="card">
+            <span class="mt-4"><i class="bi bi-truck border rounded-circle border-dark p-2"
+                style="font-size: 2em;"></i></span>
+            <div class="card-body">
+              <h5 class="card-title">Fast Shipping</h5>
+              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+              </p>
+            </div>
+          </div>
+          <div class="card">
+            <span class="mt-4"><i class="bi bi-bookmark-star border rounded-circle border-dark p-2"
+                style="font-size: 2em;"></i></span>
+            <div class="card-body">
+              <h5 class="card-title">Gratis Nasi padang</h5>
+              <p class="card-text">This is a wider card with supporting text below.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section id="offers" class="my-3">
+    <div class="container">
+      <h2 class="text-center mt-5">Offers</h2>
+      <p class="lead fw-normal text-center mb-3">Temukan promo menarik disini!</p>
+      <div id="rated-brand" class="container border shadow-lg">
+        <div class="row">
+          <div class="col-md p-0">
+            <img src="img/image (4).jpg" width="100%" alt="">
+          </div>
+          <div class="col-md-auto col-lg-12 col-xl-8 mb-3 text-center">
+            <h3 class="display-6 mt-4">Top Rated Brand</h3>
+            <h4 class="display-6 fw-normal mt-2">Apple</h4>
+            <p class="lead fw-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, mollitia
+              sequi saepe, quasi.</p>
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-md-auto col-lg-4 justify-content-center">
+                  <div class="card" style="width: 15rem; height: 20rem;">
+                    <img src="img/hp/iphone13.jpg" class="card-img-top card-photo mt-3" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Iphone 13</h5>
+                      <p class="card-text">1 TB <br>
+                        Keren</p>
+                      <a href="#" class="btn">Show Details</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-auto col-lg-4 justify-content-center">
+                  <div class="card" style="width: 15rem; height: 20rem;">
+                    <img src="img/hp/iphone11.jpg" class="card-img-top card-photo mt-3" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Iphone 11</h5>
+                      <p class="card-text">128 GB <br>
+                        Lancar ML <br>
+                        PUBG 60 fps</p>
+                      <a href="#" class="btn">Show Details</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-auto col-lg-4 justify-content-center">
+                  <div class="card" style="width: 15rem; height: 20rem;">
+                    <img src="img/laptop/macbook.jpg" class="card-img-top card-photo mt-3" alt="..."
+                      style="width: 150px; box-sizing: border-box">
+                    <div class="card-body">
+                      <h5 class="card-title">Macbook Pro</h5>
+                      <p class="card-text">Laptop gaming</p>
+                      <a href="#" class="btn">Show Details</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="laptops" class="container shadow-lg">
+      <h1 class="display text-center pt-4">Laptop for Works</h1>
+      <p class="lead text-center mb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos unde.</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-auto col-lg-6 text-center border-end">
+            <h3 class="mt-3">Thinkpad Series</h3>
+            <p class="px-5">ThinkPad systems are engineered for durability. We know your business depends on your PC
+              to
+              keep you going. So every ThinkPad is made to endure.</p>
+            <h5>Lenovo Thinkpad X520</h5>
+            <img src="img/laptop/lenovo-series.jpg" alt="#" width="230">
+            <div class="pt-4">
+              <a href="#" class="btn">Show Details</a>
+            </div>
+          </div>
+          <div class="col-sm-auto col-lg-6 text-center">
+            <h3 class="mt-3">Swift Series</h3>
+            <p class="px-5">Trendy, all metal sleek chassis (1.2kg-15.9mm), elevated hinge design. Dengan berbagai
+              fitur
+              canggih yang disematkan di dalamnya, Predator Triton 500 SE siap</p>
+            <h5>Acer Swift X5</h5>
+            <img src="img/laptop/acer-series.jpg" alt="#" width="200">
+            <div class="pt-4">
+              <a href="#" class="btn">Show Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer" class="container-fluid bg-dark">
+    <div class="container d-flex pt-5 pb-4">
+      <p>Muhammad Afdal Adiguna <span>&#169;</span> 2022</p>
+      <div class="ms-auto px-3">
+        <a href="#" class="text-dark"><i class="bi bi-instagram me-2"></i></a>
+        <a href="#" class="text-dark"><i class="bi bi-facebook"></i></a>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
